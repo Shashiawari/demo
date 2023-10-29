@@ -1,0 +1,101 @@
+body{
+    background-image: url("https://res.cloudinary.com/dq7brjjnz/image/upload/v1698507527/Presentation1_aufzmm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+ background-position: center;
+ background-color: #24292e;
+ border: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    -webkit-box-shadow: 1px 1px 21px 11px rgba(0,0,0,0.69); 
+    box-shadow: 1px 1px 21px 11px rgba(0,0,0,0.69);
+    padding: auto;
+    background-color: rgba(0, 0, 0, 0.452);
+    height: 70%;
+    backdrop-filter: blur(6px);
+    border-radius: 40px;
+    width: 90%;
+}
+
+.ic{
+ display: flex;
+ flex-direction: column;
+ align-items: end;
+   
+}
+.fa-brands{
+    font-size: 25px;
+    padding: 15px;
+}
+#hello{
+    color: wheat;
+    font-family: Josefin Slab;
+    letter-spacing: 2px;
+}
+#port{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Josefin Slab;
+    color: white;
+}
+
+#click{
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 30px 5px 30px ;
+    color: white;
+    transition: all 0.3s;
+    font-family: josefin slab;
+    background: rgb(84,29,147);
+    background: linear-gradient(322deg, rgba(84,29,147,0.896796218487395) 0%, rgba(129,32,189,1) 35%, rgba(141,0,255,1) 100%);
+}
+
+#click:hover{
+    background: rgb(128,98,163);
+background: linear-gradient(140deg, rgba(128,98,163,0.896796218487395) 0%, rgba(129,32,189,1) 35%, rgba(141,0,255,1) 100%);
+
+}
+.fa-instagram{
+    padding: 9px;
+    transition: all 0.3s;
+}
+.fa-instagram:hover{
+    border-radius: 10px;
+    background-color: #c4c1c457;
+}
+.fa-github{
+    padding: 9px;
+    transition: all 0.3s;
+}
+.fa-github:hover{
+    border-radius: 10px;
+    background-color: #c4c1c457;
+}
+.fa-facebook{
+    padding: 9px;
+    transition: all 0.3s;
+}
+.fa-facebook:hover{
+    border-radius: 10px;
+    background-color: #c4c1c457;
+}
+h4{
+    font-size: 20px;
+    color: white;
+    font-family: josefin slab;
+}
